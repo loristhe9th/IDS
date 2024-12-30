@@ -91,20 +91,18 @@ Network Attacks Analysis and Suggestion for Simple Intrusion Detection System
 ---
 
 ## 5. Repository Structure
-Here is the folder and file structure of the repository:
-
-```plaintext
-IDS/
-├── data/
-│   └── cicids2017.csv        # Network traffic data used for analysis and model training
-├── models/
-│   └── knn_model.pkl         # Pre-trained KNN model for intrusion detection
-├── src/
-│   ├── data_preprocessing.py # Script for cleaning and preprocessing data
-│   ├── model_training.py     # Script for training and saving the KNN model
-│   ├── feature_selection.py  # Script for feature engineering and selection
-│   └── app.py                # Main Streamlit app for intrusion detection
-├── use_case_diagram.png  # Use Case Diagram created using Draw.io
-├── requirements.txt          # List of dependencies for the project
-├── README.md                 # Project documentation
-└── LICENSE                   # License information
+Repository Structure:
+├── Data
+│   ├── Friday-WorkingHours-Afternoon.pcap_ISCX.csv
+│   ├── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+│   ├── Friday-WorkingHours-Morning.pcap_ISCX.csv
+├── Intrusion Detection System
+│   └── app.py  # Main Streamlit app for intrusion detection
+├── Network Attacks Analysis
+│   └── CICIDS2017_Data Analysis.ipynb
+│   └── Requirements  # List of dependencies for the project
+│   └── knn_model.pkl # Trained KNN model for intrusion detection
+├── UseCase.png # Use Case Diagram created using Draw.io
+├── LICENSE
+├── README.md
+└── .gitattributes
