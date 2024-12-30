@@ -91,18 +91,25 @@ Network Attacks Analysis and Suggestion for Simple Intrusion Detection System
 ---
 
 ## 5. Repository Structure
-Repository Structure:
+# Intrusion Detection System
+
+This repository contains an Intrusion Detection System (IDS) project for detecting network attacks based on network traffic data. The project uses machine learning techniques and provides an interactive web application using Streamlit for real-time intrusion detection. Additionally, it includes analysis of network attacks and a trained KNN model for intrusion detection.
+
+## Repository Structure
+
+```plaintext
 ├── Data
-│   ├── Friday-WorkingHours-Afternoon.pcap_ISCX.csv
-│   ├── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
-│   ├── Friday-WorkingHours-Morning.pcap_ISCX.csv
+│   ├── Friday-WorkingHours-Afternoon.pcap_ISCX.csv     # Dataset for Friday afternoon working hours
+│   ├── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv # Dataset for Friday afternoon with DDoS attacks
+│   ├── Friday-WorkingHours-Morning.pcap_ISCX.csv       # Dataset for Friday morning working hours
 ├── Intrusion Detection System
-│   └── app.py  # Main Streamlit app for intrusion detection
+│   └── app.py  # Main Streamlit app for real-time intrusion detection
 ├── Network Attacks Analysis
-│   └── CICIDS2017_Data Analysis.ipynb
-│   └── Requirements  # List of dependencies for the project
-│   └── knn_model.pkl # Trained KNN model for intrusion detection
+│   └── CICIDS2017_Data Analysis.ipynb  # Jupyter notebook for analyzing the CICIDS2017 dataset
+│   └── Requirements                     # List of dependencies for the project
+│   └── knn_model.pkl                    # Trained KNN model for intrusion detection
 ├── UseCase.png # Use Case Diagram created using Draw.io
-├── LICENSE
-├── README.md
-└── .gitattributes
+├── LICENSE     # License file for the project
+├── README.md   # Documentation for the project
+└── .gitattributes # Git configuration for handling files and attributes
+
