@@ -104,8 +104,7 @@ IDS/
 │   ├── model_training.py     # Script for training and saving the KNN model
 │   ├── feature_selection.py  # Script for feature engineering and selection
 │   └── app.py                # Main Streamlit app for intrusion detection
-├── diagrams/
-│   └── use_case_diagram.png  # Use Case Diagram created using Draw.io
+├── use_case_diagram.png  # Use Case Diagram created using Draw.io
 ├── requirements.txt          # List of dependencies for the project
 ├── README.md                 # Project documentation
 └── LICENSE                   # License information
